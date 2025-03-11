@@ -37,5 +37,10 @@ func main() {
 	 // can initialize multiple variables at once, and := shorthand allows me to drop the "var"
 	 var1, var2 := 1, 2
 	 fmt.Println(var1, var2)
+	
+	const myConst string = "const value"
+	fmt.Println(myConst)
 
+	const pi float32 = 3.1415
+	fmt.Println(pi)
 }
